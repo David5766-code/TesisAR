@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="30dp"
+    tools:context=".MainMenu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-120dp"
+        android:text="Main Menu"
+        android:textSize="50sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/help_ra_btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="#F0F0F0"
+            android:padding="18dp"
+            android:text="Help me RA"
+            android:textColor="#00235B"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/camera_ra"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"/>
+
+        <Button
+            android:id="@+id/knowledge_test_btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#F0F0F0"
+            android:padding="18dp"
+            android:text="Knowledge test"
+            android:textColor="#00235B"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/test"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"/>
+
+        <Button
+            android:id="@+id/my_progress_btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#F0F0F0"
+            android:padding="18dp"
+            android:text="My progress"
+            android:textColor="#00235B"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/myprocess"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"/>
+        <Button
+            android:id="@+id/close_btn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="#F0F0F0"
+            android:padding="18dp"
+            android:text="Log out"
+            android:textColor="#00235B"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
