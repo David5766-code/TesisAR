@@ -13,7 +13,7 @@ def create_db_engine():
     """Create SQLAlchemy engine for database connection"""
     try:
         engine = create_engine(
-            'postgresql://postgres:AlphaEFB5766/*@localhost:5432/user_tesis'
+            'postgresql://postgres: @localhost:5432/user_tesis'
         )
         return engine
     except Exception as e:
